@@ -1,4 +1,6 @@
-describe('Sample', () => {
+describe('Sample', {
+    baseUrl: 'http://jsonplaceholder.typicode.com'
+}, () => {
     it('make request to', () => {
         cy.request('GET', '/albums')
             .then((response) => {

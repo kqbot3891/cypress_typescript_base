@@ -1,6 +1,5 @@
 {
   "integrationFolder": "./cypress/integration-test/",
-  "baseUrl": "http://jsonplaceholder.typicode.com",
   "supportFile": "./cypress/support/index.ts",
   "defaultCommandTimeout": 10000
 }
