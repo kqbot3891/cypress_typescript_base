@@ -12,7 +12,7 @@
       "cypress"
     ]
   },
-  "exclude": [
-    "./node_modules/**.ts"
+  "include": [
+    "**/*.ts"
   ]
 }
